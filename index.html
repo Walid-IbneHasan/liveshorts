@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LiveShorts</title>
+<style>
+  :root { --bg:#ffffff; --ink:#1d2330; --muted:#5d6678; --line:#dde1e8; --accent:#2457c5; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14171d; --ink:#e7eaf0; --muted:#9aa3b5; --line:#2d333f; --accent:#7aa2ff; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:32px; margin:0 0 8px; } h2 { font-size:20px; margin:32px 0 8px; }
+  p, li { color:var(--ink); } .muted { color:var(--muted); } a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>LiveShorts</h1>
+  <p class="muted">A personal, self-hosted tool for producing YouTube Shorts.</p>
+
+  <p>LiveShorts runs only on its owner's own computer. It turns live gaming broadcasts that the owner
+  is authorised to use into short vertical videos with original commentary. It uploads them to the
+  owner's own YouTube channel through the official YouTube Data API.</p>
+
+  <h2>What it does with your YouTube account</h2>
+  <ul>
+    <li>Uploads videos you approve to the channel you choose. Every upload starts as private.</li>
+    <li>Reads your channel's ID and name, so it uploads only to the channel you confirmed.</li>
+    <li>Changes the privacy or schedule of videos it uploaded, when you ask it to.</li>
+  </ul>
+  <p>It is not a public service. It has no user accounts, and nobody other than the owner uses it.</p>
+
+  <h2>Policies</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy policy</a></li>
+    <li><a href="terms.html">Terms of service</a></li>
+  </ul>
+
+  <footer>
+    LiveShorts uses YouTube API Services. By using it you agree to the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; see also the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+    Contact: <a href="mailto:secretgiggle3@gmail.com">secretgiggle3@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
